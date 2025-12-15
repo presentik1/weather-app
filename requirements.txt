@@ -1,0 +1,4 @@
+fastapi
+uicorn[standart]
+requests
+jinja2

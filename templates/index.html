@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода онлайн</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Проверить погоду</h1>
+    <input type="text" id="cityInput" placeholder="Введите город...">
+    <button onclick="getWeather()">Показать</button>
+
+    <div id="result" class="hidden">
+        <h2 id="cityName"></h2>
+        <p><b>Температура:</b> <span id="temp"></span>°C</p>
+        <p><b>Ощущается как:</b> <span id="feels"></span>°C</p>
+        <p><b>Влажность:</b> <span id="humidity"></span>%</p>
+        <p><b>Описание:</b> <span id="desc"></span></p>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
