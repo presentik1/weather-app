@@ -1,4 +1,4 @@
 fastapi
-unicorn[standart]
+uvicorn[standard]
 requests
 jinja2
